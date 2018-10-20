@@ -2,8 +2,9 @@ import React from 'react'
 
 export default const Form = () => {
   return (
-    <div>
-      
-    </div>
+    <form>
+      <input type="text" />
+      <button>Search</button>
+    </form>
   )
 }
