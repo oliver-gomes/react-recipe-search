@@ -4,8 +4,9 @@ import Form from "./components/Form";
 
 class App extends Component {
   getRecipe = e => {
+    const recipeName = e.target.elements.recipeName.value;
     e.preventDefault();
-    console.log("Working");
+    console.log(recipeName);
   };
 
   render() {
